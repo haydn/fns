@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@haydn/linear-fns": "workspace:*"
+  },
+  "devDependencies": {
+    "tsdoc-markdown": "^1.4.1"
+  },
+  "main": "dist/index.ts",
+  "module": "src/index.ts",
+  "name": "@haydn/grid-fns",
+  "scripts": {
+    "docs": "tsdoc --src=src/index.ts --types"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
+}
