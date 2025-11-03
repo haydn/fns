@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="logo.png" alt="linear-fns" width="160" />
+    <img src="https://unpkg.com/@haydn/linear-fns/logo.png" alt="linear-fns" width="160" />
   </h1>
   <p>A JavaScript utility library for linear algebra.</p>
   <p>

@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="logo.png" alt="grid-fns" width="160" />
+    <img src="https://unpkg.com/@haydn/grid-fns/logo.png" alt="grid-fns" width="160" />
   </h1>
   <p>A JavaScript utility library for grids.</p>
   <p>
