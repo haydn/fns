@@ -1,5 +1,13 @@
 # @haydn/geometry-fns
 
+## 0.0.3
+
+### Patch Changes
+
+- 832711a: Automated NPM publishing
+- Updated dependencies [832711a]
+  - @haydn/linear-fns@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

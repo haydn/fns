@@ -1,5 +1,11 @@
 # @haydn/linear-fns
 
+## 0.0.3
+
+### Patch Changes
+
+- 832711a: Automated NPM publishing
+
 ## 0.0.2
 
 ### Patch Changes
