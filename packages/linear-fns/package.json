@@ -5,11 +5,10 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js"
     }
   },
-  "module": "src/index.ts",
+  "files": ["CHANGELOG.md", "dist", "LICENSE", "logo.png", "README.md"],
   "name": "@haydn/linear-fns",
   "private": false,
   "scripts": {
