@@ -1,5 +1,13 @@
 # @haydn/grid-fns
 
+## 0.0.3
+
+### Patch Changes
+
+- 7a3a12e: Automated NPM publishing
+- Updated dependencies [7a3a12e]
+  - @haydn/linear-fns@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
