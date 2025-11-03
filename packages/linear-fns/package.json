@@ -19,7 +19,7 @@
   "private": false,
   "scripts": {
     "docs": "tsdoc --src=src/index.ts --types",
-    "publish": "bun publish --access public"
+    "publish": "bun pm pack --filename linear-fns.tgz && npm publish ../../linear-fns.tgz --access public --no-git-checks --tag=latest"
   },
   "type": "module",
   "types": "dist/index.d.ts",

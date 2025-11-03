@@ -22,7 +22,7 @@
   "private": false,
   "scripts": {
     "docs": "tsdoc --src=src/index.ts --types",
-    "publish": "bun publish --access public"
+    "publish": "bun pm pack --filename geometry-fns.tgz && npm publish ../../geometry-fns.tgz --access public --no-git-checks --tag=latest"
   },
   "type": "module",
   "types": "dist/index.d.ts",
