@@ -12,8 +12,8 @@
   "packageManager": "bun@1.2.18",
   "private": true,
   "scripts": {
+    "add-change": "bun run changeset add",
     "build": "bunup src/index.ts",
-    "change": "bun run changeset add",
     "docs": "bun run --filter '*' docs",
     "test": "bun test"
   },
