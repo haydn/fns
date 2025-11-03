@@ -17,6 +17,10 @@
   ],
   "name": "@haydn/linear-fns",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haydn/fns.git"
+  },
   "scripts": {
     "docs": "tsdoc --src=src/index.ts --types",
     "publish": "bun pm pack --filename linear-fns.tgz && npm publish ../../linear-fns.tgz --access public --no-git-checks --tag=latest"
