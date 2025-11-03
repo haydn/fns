@@ -16,7 +16,8 @@
   "name": "@haydn/grid-fns",
   "private": false,
   "scripts": {
-    "docs": "tsdoc --src=src/index.ts --types"
+    "docs": "tsdoc --src=src/index.ts --types",
+    "publish": "bun publish --access public"
   },
   "type": "module",
   "types": "dist/index.d.ts",

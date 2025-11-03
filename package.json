@@ -15,6 +15,7 @@
     "add-change": "bun run changeset add",
     "build": "bunup src/index.ts",
     "docs": "bun run --filter '*' docs",
+    "publish": "bun run --filter '*' publish",
     "test": "bun test"
   },
   "type": "module",
