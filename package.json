@@ -15,7 +15,7 @@
     "add-change": "bun run changeset add",
     "build": "bunup src/index.ts",
     "docs": "bun run --filter '*' docs",
-    "publish": "bun run --filter '*' publish",
+    "publish": "bun run --cwd packages/linear-fns publish && bun run --cwd packages/geometry-fns publish && bun run --cwd packages/grid-fns publish",
     "test": "bun test"
   },
   "type": "module",
