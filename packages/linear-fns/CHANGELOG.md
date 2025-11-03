@@ -1,5 +1,11 @@
 # @haydn/linear-fns
 
+## 0.0.2
+
+### Patch Changes
+
+- 23a0a38: Removed unnecessary source files from NPM package.
+
 ## 0.0.1
 
 ### Patch Changes
