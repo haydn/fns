@@ -12,6 +12,7 @@
     }
   },
   "files": ["CHANGELOG.md", "dist", "LICENSE", "logo.png", "README.md"],
+  "main": "./dist/index.js",
   "name": "@haydn/grid-fns",
   "private": false,
   "repository": {
