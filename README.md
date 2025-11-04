@@ -2,6 +2,6 @@
 
 A collection of JavaScript utility libraries:
 
-- [@haydn/grid-fns](packages/grid-fns/README.md)
-- [@haydn/linear-fns](packages/linear-fns/README.md)
-- [@haydn/geometry-fns](packages/geometry-fns/README.md)
+- [@haydn/geometry-fns](https://github.com/haydn/fns/tree/main/packages/geometry-fns)
+- [@haydn/grid-fns](https://github.com/haydn/fns/tree/main/packages/grid-fns)
+- [@haydn/linear-fns](https://github.com/haydn/fns/tree/main/packages/linear-fns)

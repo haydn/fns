@@ -2,7 +2,7 @@
   <h1>
     <img src="https://unpkg.com/@haydn/grid-fns/logo.png" alt="grid-fns" width="160" />
   </h1>
-  <p>A JavaScript utility library for grids.</p>
+  <p>A JavaScript utility library for working with grids.</p>
   <p>
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/@haydn/grid-fns.svg">
     <img alt="npm" src="https://img.shields.io/npm/dw/@haydn/grid-fns.svg">
