@@ -8,13 +8,7 @@
       "import": "./dist/index.js"
     }
   },
-  "files": [
-    "CHANGELOG.md",
-    "dist",
-    "LICENSE",
-    "logo.png",
-    "README.md"
-  ],
+  "files": ["CHANGELOG.md", "dist", "LICENSE", "logo.png", "README.md"],
   "name": "@haydn/linear-fns",
   "private": false,
   "repository": {
@@ -23,7 +17,7 @@
   },
   "scripts": {
     "docs": "tsdoc --src=src/index.ts --types",
-    "publish": "bun pm pack --filename linear-fns.tgz && npm publish ../../linear-fns.tgz --access public --no-git-checks --tag=latest"
+    "publish": "(npm view $(npm view ./ name)@$(npm view ./ version) > /dev/null 2>&1) && (echo \"This version has already been published. Skipping.\") || (bun pm pack --filename package.tgz && npm publish ../../package.tgz --access public --tag=latest)"
   },
   "type": "module",
   "types": "dist/index.d.ts",
