@@ -1,5 +1,11 @@
 # @haydn/grid-fns
 
+## 0.0.5
+
+### Patch Changes
+
+- bdb690a: Fixed outdated `@haydn/linear-fns` dependency.
+
 ## 0.0.4
 
 ### Patch Changes
