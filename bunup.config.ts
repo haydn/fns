@@ -12,6 +12,11 @@ export default defineWorkspace([
     config,
   },
   {
+    name: "graph-fns",
+    root: "packages/graph-fns",
+    config,
+  },
+  {
     name: "grid-fns",
     root: "packages/grid-fns",
     config,

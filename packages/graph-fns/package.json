@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "tsdoc-markdown": "^1.4.1"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["CHANGELOG.md", "dist", "LICENSE", "logo.png", "README.md"],
+  "keywords": ["graph", "utility", "graph theory", "networks"],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "graph-fns",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haydn/fns.git"
+  },
+  "scripts": {
+    "docs": "tsdoc --src=src/index.ts --types --noemoji",
+    "publish": "(npm view $(npm view ./ name)@$(npm view ./ version) > /dev/null 2>&1) && (echo \"This version has already been published. Skipping.\") || (bun pm pack --filename package.tgz && npm publish ../../package.tgz --access public --tag=latest)"
+  },
+  "type": "module",
+  "version": "0.4.0"
+}
